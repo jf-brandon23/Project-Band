@@ -1,7 +1,15 @@
-html, body {
+html {
+    background-color: #541818;
+}
+
+
+
+body {
     
 }
 
 .header {
+    justify-content: flex-start;
     background-color: #541818;
+    
 }
