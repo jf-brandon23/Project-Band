@@ -1,5 +1,5 @@
 html {
-    background-color: #541818;
+    background-color: #F1F1F1;
 }
 
 
@@ -8,8 +8,15 @@ body {
     
 }
 
-.header {
+header {
     justify-content: flex-start;
     background-color: #541818;
     
+}
+
+
+
+footer {
+    background-color: #541818;
+    justify-content: end;
 }
