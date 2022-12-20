@@ -7,12 +7,23 @@ html {
 body {
     
 }
-
-header {
-    justify-content: flex-start;
+header {    /*color of the banner, text color, text decoration*/
     background-color: #541818;
-    
+    padding: 1em;
+    /* padding-bottom: 1em; */
 }
+
+    /*Dr.B text color, removes text-decoration from link*/
+header h1,a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-bottom: .25em;
+    padding-left: .5em;
+}
+
+/*To reflect clinic will replace with logo*/
+header a:hover{color: #A3C3DC;}
+
 
 
 
