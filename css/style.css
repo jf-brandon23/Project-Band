@@ -1,11 +1,11 @@
 html {
-    background-color: #F1F1F1;
+    background-color: #232323;
 }
 
 
 
 body {
-    
+    margin: 0;
 }
 header {    /*color of the banner, text color, text decoration*/
     background-color: #541818;
@@ -13,8 +13,19 @@ header {    /*color of the banner, text color, text decoration*/
     /* padding-bottom: 1em; */
 }
 
-    /*Dr.B text color, removes text-decoration from link*/
-header h1,a{
+    /*MvHS text color, removes text-decoration from link*/
+header h1{
+    text-decoration: none;
+    color: aliceblue;
+    padding-bottom: .25em;
+    padding-left: .5em;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a{
     text-decoration: none;
     color: aliceblue;
     padding-bottom: .25em;
@@ -29,5 +40,9 @@ header a:hover{color: #A3C3DC;}
 
 footer {
     background-color: #541818;
+    color: aliceblue;
     justify-content: end;
+    text-align: center;
+    height: fit-content;
+    
 }
